@@ -1,0 +1,79 @@
+{
+  "_args": [
+    [
+      "jquery.smoothscroll@1.0.3",
+      "/home/travis/build/inc2734/snow-monkey"
+    ]
+  ],
+  "_from": "jquery.smoothscroll@1.0.3",
+  "_id": "jquery.smoothscroll@1.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-PiXukDai8n720jxDHaDygqDucbKi6WgYV2lDq5JR4CdylAr3jvnWPL+dYib6AwNEW4p8q+0SR7mu/imYgprAYg==",
+  "_location": "/jquery.smoothscroll",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "jquery.smoothscroll@1.0.3",
+    "name": "jquery.smoothscroll",
+    "escapedName": "jquery.smoothscroll",
+    "rawSpec": "1.0.3",
+    "saveSpec": null,
+    "fetchSpec": "1.0.3"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/jquery.smoothscroll/-/jquery.smoothscroll-1.0.3.tgz",
+  "_spec": "1.0.3",
+  "_where": "/home/travis/build/inc2734/snow-monkey",
+  "author": {
+    "name": "inc2734"
+  },
+  "bugs": {
+    "url": "https://github.com/inc2734/jquery.smoothscroll/issues"
+  },
+  "description": "## Get started",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-rollup": "^2.11.0",
+    "gulp-uglify": "^2.1.2",
+    "gulp-zip": "^4.0.0",
+    "rollup-plugin-babel": "^2.7.1",
+    "rollup-plugin-commonjs": "^8.0.2",
+    "rollup-plugin-node-resolve": "^2.0.0"
+  },
+  "files": [
+    "src",
+    "dist",
+    "package.json",
+    "gulpfile.js",
+    "LICENSE",
+    "README.md",
+    "yarn.lock"
+  ],
+  "homepage": "https://github.com/inc2734/jquery.smoothscroll#readme",
+  "keywords": [
+    "scrollbar",
+    "scroll",
+    "smooth scroll"
+  ],
+  "license": "MIT",
+  "main": "src/jquery.smoothscroll.js",
+  "name": "jquery.smoothscroll",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inc2734/jquery.smoothscroll.git"
+  },
+  "scripts": {
+    "build": "gulp build",
+    "gulp": "gulp",
+    "prepublish": "gulp build",
+    "start": "gulp"
+  },
+  "version": "1.0.3"
+}

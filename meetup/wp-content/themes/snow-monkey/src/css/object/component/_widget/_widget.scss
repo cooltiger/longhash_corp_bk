@@ -1,0 +1,61 @@
+.#{$_prefix}c-widget {
+  &__title {
+    @include _margin(0, 0, .5);
+    @include _font-size-line-height($_base-font-size-px);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    &::before,
+    &::after {
+      display: block;
+      content: '';
+      height: $border-bottom-width;
+      background-color: $_color-black;
+      flex: 1 0 0%;
+      min-width: 20px;
+    }
+
+    &::before {
+      margin-right: .5em;
+    }
+
+    &::after {
+      margin-left: .5em;
+    }
+  }
+
+  [data-is-slim-widget-area="true"] & {
+    @include _font-size-line-height($_base-font-size-px - 2);
+
+    &__title {
+      @include _font-size-line-height($_base-font-size-px);
+    }
+  }
+}
+
+@import 'children-expander';
+@import 'widget-meta';
+@import 'widget-recent-entries';
+@import 'widget-recent-comments';
+@import 'widget-archive';
+@import 'widget-categories';
+@import 'widget-pages';
+@import 'widget-nav-menu';
+@import 'widget-calendar';
+@import 'widget-tag-cloud';
+@import 'widget-text';
+@import 'wpaw-recent-posts';
+@import 'wpaw-any-posts';
+@import 'wpaw-ranking';
+@import 'wpaw-pr-box';
+@import 'wpaw-showcase';
+@import 'wpaw-slider';
+@import 'wpaw-site-branding';
+@import 'wpaw-taxonomy-posts';
+@import 'wpaw-pickup-slider';
+@import 'wpaw-profile-box';
+
+@import 'snow-monkey-recent-posts';

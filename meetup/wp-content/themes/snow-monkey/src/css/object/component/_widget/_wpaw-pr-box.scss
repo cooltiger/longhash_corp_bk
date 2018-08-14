@@ -1,0 +1,116 @@
+.widget_inc2734_wp_awesome_widgets_pr_box {
+  padding: 0;
+}
+
+.wpaw-pr-box {
+  @include _padding(1, .5);
+
+  @include _media-min(md) {
+    @include _padding(1);
+  }
+
+  &__title {
+    @include section-title();
+  }
+
+  &__lead {
+    @include _content(.5);
+    @include _margin(.75, 0, 0);
+    @include _font-size-line-height($_base-font-size-px - 2);
+    color: _light($_color-text);
+  }
+
+  &__row {
+    @include _margin-top(1);
+  }
+
+  &__item-figure {
+    @include _margin-bottom(.25);
+
+    @include _media-min(lg) {
+      @include _margin-bottom(.75);
+    }
+  }
+
+  &__item-summary {
+    @include _content(.5);
+    @include _font-size-line-height($_base-font-size-px - 2);
+
+    @include _media-min(lg) {
+      @include _margin-top(.25);
+    }
+  }
+
+  &__action {
+    @include _margin(.5, 0, 0);
+
+    @include _media-min(md) {
+      @include _margin(1, 0, 0);
+    }
+  }
+
+  &__more {
+    @include btn();
+    @include _padding(.5, 1);
+    width: 100%;
+
+    @include _media-min(lg) {
+      @include _padding(.5, 2);
+      width: auto;
+    }
+  }
+
+  [data-is-content-widget-area="false"] & {
+    &--chameleon {
+      padding-right: 0;
+      padding-left: 0;
+    }
+  }
+
+  [data-has-sidebar="true"] [data-is-content-widget-area="true"] & {
+    @include _media-max(md) {
+      @include widget-full-width();
+      @include _padding(1.5, 0);
+    }
+
+    &__inner {
+      @include _media-max(md) {
+        @include _container();
+      }
+    }
+
+    &--chameleon {
+      @include _media-min(lg) {
+        padding-right: 0;
+        padding-left: 0;
+      }
+    }
+  }
+
+  [data-has-sidebar="false"] [data-is-content-widget-area="true"] & {
+    @include widget-full-width();
+    @include _padding(1.5, 0);
+
+    @include _media-min(lg) {
+      @include _padding(2, 0);
+    }
+
+    &__inner {
+      @include _container();
+    }
+
+    &__action {
+      @include _media-min(lg) {
+        @include _margin(1.5, 0, 0);
+      }
+    }
+  }
+
+  .#{$_prefix}l-body--one-column-slim [data-is-content-widget-area="true"] & {
+    &__inner {
+      @include _media-min(lg) {
+        max-width: calc(#{$one-column-slim-max-width} + #{_space(1)} * 2);
+      }
+    }
+  }
+}

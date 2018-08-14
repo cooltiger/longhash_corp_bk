@@ -1,0 +1,113 @@
+.#{$_prefix}l-contents {
+  &__inner {
+    $contents-innner-margin: 1.5;
+    $contents-innner-margin-lg: 2;
+
+    @include _margin-top($contents-innner-margin);
+    @include _margin-bottom($contents-innner-margin);
+
+    @include _media-min(lg) {
+      @include _margin-top($contents-innner-margin-lg);
+      @include _margin-bottom($contents-innner-margin-lg);
+    }
+
+    [data-has-sidebar="false"] &:first-child {
+      [data-is-content-widget-area="true"]:first-child {
+        @include _margin-top(-1 * $contents-innner-margin);
+
+        @include _media-min(lg) {
+          @include _margin-top(-1 * $contents-innner-margin-lg);
+        }
+      }
+    }
+
+    [data-has-sidebar="false"] & {
+      [data-is-content-widget-area="true"]:last-child {
+        @include _margin-bottom(-1 * $contents-innner-margin);
+
+        @include _media-min(lg) {
+          @include _margin-bottom(-1 * $contents-innner-margin-lg);
+        }
+      }
+    }
+
+    [data-has-sidebar="true"] &:first-child {
+      [data-is-content-widget-area="true"]:first-child {
+        @include _media-max(md) {
+          @include _margin-top(-1 * $contents-innner-margin);
+
+          @include _media-min(lg) {
+            @include _margin-top(-1 * $contents-innner-margin-lg);
+          }
+        }
+      }
+    }
+  }
+
+  &__sidebar {
+    @include items-gutter();
+  }
+
+  [data-has-sidebar="true"] & {
+    &__inner {
+      @include _media-min(lg) {
+        display: flex;
+        flex-wrap: nowrap;
+      }
+    }
+
+    &__main {
+      flex: 1 1 0%;
+
+      @include _media-min(lg) {
+        flex: none;
+        width: calc(100% - 336px - #{_space(2)});
+      }
+    }
+
+    &__sidebar {
+      flex: 1 1 0%;
+      @include _margin(1, 0, 0);
+
+      @include _media-min(lg) {
+        margin: 0;
+        flex: none;
+        width: 336px;
+      }
+    }
+  }
+
+  /**
+   * Right sidebar
+   */
+  .#{$_prefix}l-body--right-sidebar & {
+    &__inner {
+      @include _media-min(lg) {
+        flex-direction: row;
+      }
+    }
+
+    &__main {
+      @include _media-min(lg) {
+        @include _margin(0, 2, 0, 0);
+      }
+    }
+  }
+
+  /**
+   * Left sidebar
+   */
+  .#{$_prefix}l-body--left-sidebar & {
+    &__inner {
+      @include _media-min(lg) {
+        flex-direction: row-reverse;
+      }
+    }
+
+    &__main {
+      @include _media-min(lg) {
+        @include _margin(0, 0, 0, 2);
+      }
+    }
+  }
+}

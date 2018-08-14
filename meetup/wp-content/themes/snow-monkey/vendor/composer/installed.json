@@ -1,0 +1,872 @@
+[
+    {
+        "name": "inc2734/mimizuku-core",
+        "version": "2.6.7",
+        "version_normalized": "2.6.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/mimizuku-core.git",
+            "reference": "72fec3514d7f5c48d80bc2c52111a300b5b0bc83"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/mimizuku-core/zipball/72fec3514d7f5c48d80bc2c52111a300b5b0bc83",
+            "reference": "72fec3514d7f5c48d80bc2c52111a300b5b0bc83",
+            "shasum": ""
+        },
+        "require": {
+            "inc2734/wp-awesome-components": ">=1.0.5",
+            "inc2734/wp-awesome-widgets": ">=2.5.3",
+            "inc2734/wp-basis": ">=2.0.2",
+            "inc2734/wp-breadcrumbs": ">=1.0.3",
+            "inc2734/wp-contents-outline": ">=1.0.4",
+            "inc2734/wp-customizer-framework": ">=3.1.4",
+            "inc2734/wp-github-theme-updater": ">=0.2.8",
+            "inc2734/wp-like-me-box": ">=0.1.6",
+            "inc2734/wp-oembed-blog-card": ">=4.0.4",
+            "inc2734/wp-page-speed-optimization": ">=0.7.1",
+            "inc2734/wp-profile-box": ">=1.1.1",
+            "inc2734/wp-pure-css-gallery": ">=1.1.4",
+            "inc2734/wp-seo": ">=1.0.5",
+            "inc2734/wp-share-buttons": ">=2.0.2",
+            "inc2734/wp-view-controller": ">=5.0.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-28T04:38:14+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\Mimizuku_Core\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "This library is core of WordPress theme mimizuku"
+    },
+    {
+        "name": "inc2734/wp-awesome-components",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-awesome-components.git",
+            "reference": "27e74ac8d2a9e2134cf4c789f06a927c37b98a5a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-awesome-components/zipball/27e74ac8d2a9e2134cf4c789f06a927c37b98a5a",
+            "reference": "27e74ac8d2a9e2134cf4c789f06a927c37b98a5a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:02:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Awesome_Components\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library to add some awesome components for WordPress."
+    },
+    {
+        "name": "inc2734/wp-awesome-widgets",
+        "version": "2.5.3",
+        "version_normalized": "2.5.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-awesome-widgets.git",
+            "reference": "b6dbda53674d7793129204a59573b570c5c07b34"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-awesome-widgets/zipball/b6dbda53674d7793129204a59573b570c5c07b34",
+            "reference": "b6dbda53674d7793129204a59573b570c5c07b34",
+            "shasum": ""
+        },
+        "require": {
+            "inc2734/wp-contents-outline": ">=1.0.4",
+            "inc2734/wp-profile-box": ">=1.1.1",
+            "inc2734/wp-view-controller": ">=5.0.1",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:36:11+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Awesome_Widgets\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library to add some awesome widgets for WordPress."
+    },
+    {
+        "name": "inc2734/wp-basis",
+        "version": "2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-basis.git",
+            "reference": "4417e3de45c09567f8d629a0aad6200769572712"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-basis/zipball/4417e3de45c09567f8d629a0aad6200769572712",
+            "reference": "4417e3de45c09567f8d629a0aad6200769572712",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-28T04:35:44+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Basis\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "This library customizes HTML to use sass-basis in WordPress."
+    },
+    {
+        "name": "inc2734/wp-breadcrumbs",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-breadcrumbs.git",
+            "reference": "8e9c67f6ce3c950c8545830db5f5b41820b6baeb"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-breadcrumbs/zipball/8e9c67f6ce3c950c8545830db5f5b41820b6baeb",
+            "reference": "8e9c67f6ce3c950c8545830db5f5b41820b6baeb",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T12:57:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Breadcrumbs\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress breadcrumbs."
+    },
+    {
+        "name": "inc2734/wp-contents-outline",
+        "version": "1.0.4",
+        "version_normalized": "1.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-contents-outline.git",
+            "reference": "4ccf0cc79e73011cf97b66419fdd192ad01ff5e1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-contents-outline/zipball/4ccf0cc79e73011cf97b66419fdd192ad01ff5e1",
+            "reference": "4ccf0cc79e73011cf97b66419fdd192ad01ff5e1",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:05:24+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Contents_Outline\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress. This adds contents outline of the post."
+    },
+    {
+        "name": "inc2734/wp-customizer-framework",
+        "version": "3.1.4",
+        "version_normalized": "3.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-customizer-framework.git",
+            "reference": "466c45e1a7c7695e6f08abc689f5e32339bc9f05"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-customizer-framework/zipball/466c45e1a7c7695e6f08abc689f5e32339bc9f05",
+            "reference": "466c45e1a7c7695e6f08abc689f5e32339bc9f05",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:34:08+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Customizer_Framework\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress Customizer."
+    },
+    {
+        "name": "inc2734/wp-github-theme-updater",
+        "version": "0.2.8",
+        "version_normalized": "0.2.8.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-github-theme-updater.git",
+            "reference": "28592a6b8e4e2959917239d8c546514f781251ce"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-github-theme-updater/zipball/28592a6b8e4e2959917239d8c546514f781251ce",
+            "reference": "28592a6b8e4e2959917239d8c546514f781251ce",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:44:06+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_GitHub_Theme_Updater\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress that automatic theme updater with GitHub API."
+    },
+    {
+        "name": "inc2734/wp-like-me-box",
+        "version": "0.1.6",
+        "version_normalized": "0.1.6.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-like-me-box.git",
+            "reference": "b3c802800f3dc2c75ac333e275753aaa67a10872"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-like-me-box/zipball/b3c802800f3dc2c75ac333e275753aaa67a10872",
+            "reference": "b3c802800f3dc2c75ac333e275753aaa67a10872",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:52:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Like_Me_Box\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress that added Facebook like me box for article."
+    },
+    {
+        "name": "inc2734/wp-oembed-blog-card",
+        "version": "4.0.4",
+        "version_normalized": "4.0.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-oembed-blog-card.git",
+            "reference": "448a0571212b48fcfff3ec5e3dd3da667305741f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-oembed-blog-card/zipball/448a0571212b48fcfff3ec5e3dd3da667305741f",
+            "reference": "448a0571212b48fcfff3ec5e3dd3da667305741f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:08:41+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_OEmbed_Blog_Card\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress oEmbed Blog Card."
+    },
+    {
+        "name": "inc2734/wp-ogp",
+        "version": "1.0.3",
+        "version_normalized": "1.0.3.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-ogp.git",
+            "reference": "a31473720ec9a217238fef71a2a797f175bab96f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-ogp/zipball/a31473720ec9a217238fef71a2a797f175bab96f",
+            "reference": "a31473720ec9a217238fef71a2a797f175bab96f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:12:45+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_OGP\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress OGP."
+    },
+    {
+        "name": "inc2734/wp-page-speed-optimization",
+        "version": "0.7.1",
+        "version_normalized": "0.7.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-page-speed-optimization.git",
+            "reference": "2ab11d3b88750c7dc7e7ef89d583fc375bcfe8f4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-page-speed-optimization/zipball/2ab11d3b88750c7dc7e7ef89d583fc375bcfe8f4",
+            "reference": "2ab11d3b88750c7dc7e7ef89d583fc375bcfe8f4",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:09:27+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Page_Speed_Optimization\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress."
+    },
+    {
+        "name": "inc2734/wp-profile-box",
+        "version": "1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-profile-box.git",
+            "reference": "2507a186148e46c8169584b9683fcab0986b4d77"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-profile-box/zipball/2507a186148e46c8169584b9683fcab0986b4d77",
+            "reference": "2507a186148e46c8169584b9683fcab0986b4d77",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:07:17+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Profile_Box\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library to add profile box for WordPress."
+    },
+    {
+        "name": "inc2734/wp-pure-css-gallery",
+        "version": "1.1.4",
+        "version_normalized": "1.1.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-pure-css-gallery.git",
+            "reference": "5606003f20d76da01ea442eaf21d0cf3a03b90f0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-pure-css-gallery/zipball/5606003f20d76da01ea442eaf21d0cf3a03b90f0",
+            "reference": "5606003f20d76da01ea442eaf21d0cf3a03b90f0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:56:18+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Pure_CSS_Gallery\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library to change WordPress gallery to pure css gallery."
+    },
+    {
+        "name": "inc2734/wp-seo",
+        "version": "1.0.5",
+        "version_normalized": "1.0.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-seo.git",
+            "reference": "78c32f541c72a471f95d8ce2c8ce87c08bf75e6a"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-seo/zipball/78c32f541c72a471f95d8ce2c8ce87c08bf75e6a",
+            "reference": "78c32f541c72a471f95d8ce2c8ce87c08bf75e6a",
+            "shasum": ""
+        },
+        "require": {
+            "inc2734/wp-ogp": ">=1.0.3",
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T14:30:05+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_SEO\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for SEO of WordPress."
+    },
+    {
+        "name": "inc2734/wp-share-buttons",
+        "version": "2.0.2",
+        "version_normalized": "2.0.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-share-buttons.git",
+            "reference": "c43fad61e0af23a3e9bb54c52b2c1b3e5dc6a464"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-share-buttons/zipball/c43fad61e0af23a3e9bb54c52b2c1b3e5dc6a464",
+            "reference": "c43fad61e0af23a3e9bb54c52b2c1b3e5dc6a464",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:48:22+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_Share_Buttons\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org",
+                "homepage": "https://2inc.org"
+            }
+        ],
+        "description": "A library for WordPress theme that adds social share buttons."
+    },
+    {
+        "name": "inc2734/wp-view-controller",
+        "version": "5.0.1",
+        "version_normalized": "5.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/inc2734/wp-view-controller.git",
+            "reference": "25fbfb5ec9a157138afa2e1f8fcdec955f43da8d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/inc2734/wp-view-controller/zipball/25fbfb5ec9a157138afa2e1f8fcdec955f43da8d",
+            "reference": "25fbfb5ec9a157138afa2e1f8fcdec955f43da8d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "doctrine/instantiator": "1.0.4",
+            "myclabs/deep-copy": "1.7.0",
+            "pdepend/pdepend": "2.5.0",
+            "phpdocumentor/reflection-docblock": "3.2.2",
+            "phpmd/phpmd": "2.*",
+            "phpunit/php-token-stream": "1.4.11",
+            "phpunit/phpunit": "^5.7",
+            "squizlabs/php_codesniffer": "*",
+            "symfony/yaml": "3.4.1",
+            "wp-coding-standards/wpcs": "*"
+        },
+        "time": "2018-07-27T13:26:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Inc2734\\WP_View_Controller\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "Takashi Kitajima",
+                "email": "inc@2inc.org"
+            }
+        ],
+        "description": "A library for WordPress theme view controller."
+    }
+]
